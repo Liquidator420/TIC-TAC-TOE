@@ -5,9 +5,9 @@ import random
 def toss():
     turn = random.randint(0,9)
     if turn%2==0:
-        print("turn of player 1")
+        print("turn of player O")
     else:
-        print("turn of player 2")
+        print("turn of player X")
     
 toss()
   
