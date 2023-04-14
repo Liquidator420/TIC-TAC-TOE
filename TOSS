@@ -1,0 +1,13 @@
+# Program to generate a random number between 0 and 9
+
+# importing the random module
+import random
+def toss():
+    turn = random.randint(0,9)
+    if turn%2==0:
+        print("turn of player 1")
+    else:
+        print("turn of player 2")
+    
+toss()
+  
